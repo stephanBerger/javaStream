@@ -135,12 +135,7 @@ public class FundamentalsTraining {
 	 *         first superior or equals to second, eg: 1
 	 */
 	public static int addIfInferiorSubstractIfSuperiorOrEquals(int first, int second) {
-		if (first < second) {
-			return first + second;
-		} else {
-			return first - second;
-
-		}
+		return first < second ? first + second : first - second;
 
 	}
 
