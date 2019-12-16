@@ -99,7 +99,7 @@ public class ArrayTraining {
 	 */
 	public int sum(int[] array) {
 
-		return Arrays.stream(array).sum();
+		return IntStream.of(array).sum();
 	}
 
 	/**
